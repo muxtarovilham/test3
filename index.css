@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.allnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#carouselExample{
+    position: relative;
+}
+.nav1{
+    position: absolute;
+    top: 0%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+}
+.words{
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+.words h4{
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navs img{
+    width: 141px;
+    cursor: pointer;
+}
+.nav2{
+    width: 100%;
+display: flex;
+justify-content: end;
+}
+
+
+
+.yazi{
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 148px;
+    background-color: #454545;
+    border: 1px solid #454545;
+    padding: 20px;
+    cursor: pointer;
+    animation: slideDown 0.7s ease;
+    
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.nav-item:hover .yazi {
+    display: block;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.sec1{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 66px;
+}
+.sec2{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+}
+.sec2 h3{
+    font-size: 68px;
+    line-height: 78px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.coffee{
+    width: 126px;
+    height: 124px;
+}
+.cofee{
+    width: 144px;
+    height: 20px;
+}
+.h55{
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+    line-height: 28pxpx;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+}
+.sec1 button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 197px;
+    height: 64px;
+}
+.sec1 button:hover{
+    background-color: rgb(168, 123, 89);
+}
+.wrd h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+}
+.wrd h5{
+    width: 40%;
+    font-size: 18px;
+    line-height: 28pxpx;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.wrd{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hh{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.hh:hover{
+    color: #be9c79;
+}
+.hn{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.sec3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alls{
+    position: absolute;
+    top: 0%;
+}
+.backimg{
+    width: 100%;
+    height: 800px;
+}
+.container1{
+    padding-top: 20px;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+}
+.img4{
+    width: 100%;
+    height: 244px;
+    cursor: pointer;
+}
+.h2s{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.h6s{
+    font-size: 15px;
+line-height: 26px;
+font-weight: 300;
+}
+.h1s{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.h1s:hover{
+    color: rgb(179, 149, 104);
+}
+.null{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+.sec4{
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+
+.img7{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.sec5{
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 90%;
+
+}
+.h1z{
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #be9c79;
+}
+.h3z{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.h5z{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: gray;
+}
